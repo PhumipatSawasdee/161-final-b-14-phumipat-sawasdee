@@ -41,6 +41,7 @@ public class Dog : Animal
 
     public override void MakeSound() 
     {
+        base.MakeSound();
         Debug.Log($"{animalName} make sound (Woof Woof)");
     }
 }

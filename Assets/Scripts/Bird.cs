@@ -41,6 +41,7 @@ public class Bird : Animal
 
     public override void MakeSound()
     {
+        base.MakeSound();
         Debug.Log($"{animalName} make sound (Tweet Tweet)");
     }
 }
